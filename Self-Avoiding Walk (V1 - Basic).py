@@ -2,6 +2,8 @@ import pygame
 from random import choice, randint
 
 # it checks to see whether it is even possible to create a self-avoiding path or not
+# function returns True if it is impossible 
+# and it returns False if it is possible to find a self-avoiding path
 def is_impossible(x, y):
     # If the number of rows and columns are both odd numbers and
     # the starting spot position is a pair of numbers which one of
